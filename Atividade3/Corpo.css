@@ -1,0 +1,389 @@
+.looks {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+div.relative_body {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 160px;
+    top: 0px;
+    border: 1px solid black
+}
+
+div.body1 {
+    position: absolute;
+    width: 40px;
+    top: 0px;
+    left: 40px;
+    background-color: red
+}
+
+div.body2 { /*Primeira linha*/
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    background-color: blue
+}
+div.body3 { /*Primeira linha*/
+    position: absolute;
+    width: 40px; /*Largura*/
+    top: 0px; /*topo*/
+    left: 100px; /*esquerda, ele vai avançar 100px para a esquerda*/
+    background-color: red
+}
+div.body4 { /*Primeira linha*/
+    position: absolute;
+    top: 0px;
+    left: 140px;
+    background-color: blue
+}
+div.body5 { /*Primeira linha*/
+    position: absolute;
+    width: 40px;
+    top: 0px;
+    left: 160px;
+    background-color: red
+}
+div.body6 { /*Segunda linha*/
+    position: absolute;
+    width: 60px; /*Aqui eu coloquei o Width em 60 que é equivalende a 3 blocos para a direita*/
+    top: 20px; /*Nesse caso como se trata de uma quebra de linha deve ser alterado o valor de topo, nesse caso em 20px para ele ficar a baixo da linha anterior*/
+    left: 20px; /*Left se trata de quantas espeços para a direita o bloco vai tomar*/
+    background-color: red
+}
+div.body7 { /*Segunda linha*/
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    left: 80px; /*Left se trata de quantas espeços para a direita o bloco vai tomar, já nesse caso ele vai pegar a posição de 80px a direita*/
+    background-color: blue
+}
+
+div.body8 { /*Segunda linha*/
+    position: absolute;
+    width: 40px; 
+    top: 20px;
+    left: 100px; 
+    background-color: red
+}
+
+div.body9 { /*Segunda linha*/
+    position: absolute;
+    width: 20px; 
+    top: 20px;
+    left: 140px; 
+    background-color: blue
+}
+
+div.body10 { /*Segunda linha*/
+    position: absolute;
+    width: 60px; 
+    top: 20px;
+    left: 160px; 
+    background-color: red
+}
+
+div.body11 { /*Terceira linha*/
+    position: absolute;
+    width: 80px; 
+    top: 40px;
+    left: 0px; 
+    background-color: red
+}
+
+div.body12 { /*terceira linha*/
+    position: absolute;
+    width: 80px;
+    top: 40px;
+    left: 80px; /*Left se trata de quantas espeços para a direita o bloco vai tomar, já nesse caso ele vai pegar a posição de 80px a direita*/
+    background-color: blue
+}
+
+div.body13 { /*Terceira linha*/
+    position: absolute;
+    width: 80px; 
+    top: 40px;
+    left: 160px; 
+    background-color: red
+}
+
+div.body14 { /*Quarta linha*/
+    position: absolute;
+    width: 40px; 
+    top: 60px;
+    left: 0px; 
+    background-color: burlywood
+}
+
+div.body15 { /*Quarta linha*/
+    position: absolute;
+  
+    top: 60px;
+    left: 40px; 
+    background-color: red
+}
+
+div.body16 { /*Quarta linha*/
+    position: absolute;
+ 
+    top: 60px;
+    left: 60px; 
+    background-color: blue
+}
+
+div.body17 {/*Quarta linha*/
+    position: absolute;
+    
+    top: 60px;
+    left: 80px;
+    background-color: yellow;
+}
+
+div.body18 {
+    position: absolute;
+    width: 40px;
+    top: 60px;
+    left: 100px;
+    background-color: blue;
+}
+
+div.body19 {/*Quarta linha*/
+    position: absolute;
+    top: 60px;
+    left: 140px;
+    background-color: yellow;
+}
+
+div.body20 {/*Quarta linha*/
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    background-color: blue
+}
+div.body21 {/*Quarta linha*/
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    background-color: red
+}
+div.body22 {/*Quarta linha*/
+    position: absolute;
+    width:40px ;
+    top: 60px;
+    left: 200px;
+    background-color: burlywood
+}
+
+div.body23 {/*Quinta linha*/
+    position: absolute;
+    width:60px ;
+    top: 80px;
+    left: 0px;
+    background-color: burlywood
+}
+
+div.body24 {/*Quinta linha*/
+    position: absolute;
+    width:120px;
+    top: 80px;
+    left: 60px;
+    background-color: blue
+}
+
+div.body25 {/*Quinta linha*/
+    position: absolute;
+    width:60px ;
+    top: 80px;
+    left: 180px;
+    background-color: burlywood
+}
+
+div.body27 {/*Sexta linha*/
+    position: absolute;
+    width:40px ;
+    top: 100px;
+    left: 0px;
+    background-color: burlywood
+}
+
+div.body28 {/*Quinta linha*/
+    position: absolute;
+    width:160px;
+    top: 100px;
+    left: 40px;
+    background-color: blue
+}
+
+div.body29 {/*Sexta linha*/
+    position: absolute;
+    width:40px ;
+    top: 100px;
+    left: 200px;
+    background-color: burlywood
+}
+
+div.body30 {/*Setima Linha*/ /*Resolvi fazer de acordo com o metodo da imagem mas é muito trabalhosa assim*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 40px;
+    background-color: blue
+}
+
+div.body31 {/*Setima Linha*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 60px;
+    background-color: blue
+}
+
+div.body32 {/*Setima Linha*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 80px;
+    background-color: blue
+}
+
+div.body33 {/*Setima Linha*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 140px;
+    background-color: blue
+}
+
+div.body34 {/*Setima Linha*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 160px;
+    background-color: blue
+}
+
+div.body35 {/*Setima Linha*/
+    position: absolute;
+    width:20px ;
+    top: 120px;
+    left: 180px;
+    background-color: blue
+}
+
+
+div.body36 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 20px;
+    background-color: brown
+}
+
+div.body37 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 40px;
+    background-color: brown
+}
+
+div.body38 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 60px;
+    background-color: brown
+}
+
+div.body39 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 0px;
+    background-color: brown
+}
+div.body40 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 20px;
+    background-color: brown
+}
+
+div.body41 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 40px;
+    background-color: brown
+}
+
+div.body42 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 60px;
+    background-color: brown
+}
+
+
+
+
+div.body43 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 160px;
+    background-color: brown
+}
+
+div.body44 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 180px;
+    background-color: brown
+}
+
+div.body45 {/*Oitava Linha*/
+    position: absolute;
+    width:20px ;
+    top: 140px;
+    left: 200px;
+    background-color: brown
+}
+
+div.body46 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 220px;
+    background-color: brown
+}
+div.body47 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 160px;
+    background-color: brown
+}
+
+div.body48 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 180px;
+    background-color: brown
+}
+
+div.body49 {/*Nona Linha*/
+    position: absolute;
+    width:20px ;
+    top: 160px;
+    left: 200px;
+    background-color: brown
+}
